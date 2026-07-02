@@ -21,7 +21,10 @@
   });
 
 
+
+
   
+
   document.querySelectorAll('.switch').forEach(sw => {
     sw.addEventListener('click', () => sw.classList.toggle('on'));
   });
