@@ -20,11 +20,6 @@
     btn.addEventListener('click', () => goTo(btn.dataset.target));
   });
 
-
-
-
-  
-
   document.querySelectorAll('.switch').forEach(sw => {
     sw.addEventListener('click', () => sw.classList.toggle('on'));
   });
